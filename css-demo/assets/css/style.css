@@ -1,0 +1,16 @@
+/* CSS Demo Stylesheet */
+/* ---- CSS Demo ---- */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/*---------------Global Styles---------------*/
+

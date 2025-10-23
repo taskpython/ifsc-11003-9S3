@@ -201,13 +201,6 @@ background-color: rgba(0, 0, 0, 0.05);
   text-align:right;
 }
 
-#practice td:nth-child(2){
-  
-} 
-
-#practice td:nth-child(3){
-  
-}
 
 #practice th{
 background-color:#172635;

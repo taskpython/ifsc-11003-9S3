@@ -201,7 +201,11 @@ background-color: rgba(0, 0, 0, 0.05);
   text-align:right;
 }
 
-#practice td:nth-child(2), #practice td:nth-child(3){
+#practice td:nth-child(2){
+  
+} 
+
+#practice td:nth-child(3){
   
 }
 
@@ -215,8 +219,42 @@ border:1px solid #c0c0c0;
 padding:5px;  
 }
 
+#practice ol{
+  list-style-type:lower-roman;
+}
 
+#practice ul ul{
+  color:red;
+}
 
+#practice dt{
+  font-weight:bold;
+}
+
+dd + dt {
+  margin-top:20px;
+}
+
+#practice dd{
+margin-left:0;
+}
+
+#practice blockquote{
+  border: 4px double #c0c0c0;
+  padding:20px 40px;
+  margin:40px 80px;
+  border-radius:30px 0;
+  background-color: #3b638b;
+  color:#fff;
+  text-shadow:1px 1px #000;
+}
+
+#practice blockquote cite{
+  display:block;
+  font-size:.7rem;
+  text-align:right;
+  margin-top:20px;
+}
 
 
 

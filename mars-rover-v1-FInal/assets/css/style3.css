@@ -1,7 +1,6 @@
-/* ---- CSS Mars Rover ---- */
+/* ---- CSS Mars Rover-Contact Page ---- */
 
-/*  ---------------Box Sizing-----------------  */
-
+/* ---------------Box Sizing-----------------  */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +16,8 @@ html {
 *:after {
   box-sizing: inherit;
 }
-/* --------------Body ----------------*/
+
+/* --------------Body-----------*/
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
@@ -44,14 +44,12 @@ body::before {
 }
 
 /* --------------IMG ----------------*/
-
 img {
   max-width: 100%;
   height: auto;
 }
 
 /* --------------Utility Classes ----------------*/
-
 .container {
   width: 80%;
   margin: 40px auto;
@@ -77,7 +75,6 @@ img {
 }
 
 /* --------------Header ----------------*/
-
 header.primary {
   background: #201e1f;
   color: #feefdd;
@@ -181,6 +178,7 @@ p {
   margin-bottom: 1rem;
 }
 
+/* Shared Article Styles */
 article.post,
 article.widget,
 article.rover-section,
@@ -231,6 +229,7 @@ figcaption {
   border-radius: 8px;
 }
 
+/* Timeline Specific Styles */
 .timeline h4 {
   color: #ff4000;
   margin-top: 20px;
@@ -248,6 +247,7 @@ figcaption {
   color: #201e1f;
 }
 
+/* Table Styles */
 table {
   width: 100%;
   border-collapse: collapse;
@@ -293,6 +293,7 @@ aside {
   margin: 20px 0;
 }
 
+/* Footer Styles */
 footer#colophon {
   background: #201e1f;
   color: #feefdd;
@@ -320,6 +321,41 @@ footer#colophon a:hover {
   color: #ff4000;
 }
 
+/* Contact Form Specific Styles */
+.contact-form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh;
+  padding: 40px 20px;
+  background: rgba(254, 239, 221, 0.95);
+  border-radius: 8px;
+  margin: 40px auto;
+}
+
+#wufoo-z1pbem8n0m0lk3y {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+
+#wufoo-z1pbem8n0m0lk3y a {
+  color: #ff4000;
+  text-decoration: none;
+}
+
+#wufoo-z1pbem8n0m0lk3y a:hover {
+  color: #faaa8d;
+  text-decoration: underline;
+}
+
+/* Ensure the embedded form is centered */
+#wufoo-z1pbem8n0m0lk3y iframe {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Media Queries */
 @media screen and (max-width: 768px) {
   .container {
     width: 90%;
@@ -359,4 +395,10 @@ footer#colophon a:hover {
   body {
     background-attachment: scroll;
   }
+
+  .contact-form-wrapper {
+    min-height: 50vh;
+    padding: 20px 10px;
+  }
 }
+

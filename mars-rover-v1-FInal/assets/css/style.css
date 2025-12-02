@@ -1,7 +1,3 @@
-/* ---- CSS Mars Rover ---- */
-
-/*  ---------------Box Sizing-----------------  */
-
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +13,7 @@ html {
 *:after {
   box-sizing: inherit;
 }
-/* --------------Body ----------------*/
+
 body {
   font-family: 'Montserrat', sans-serif;
   line-height: 1.6;
@@ -43,14 +39,10 @@ body::before {
   z-index: -1;
 }
 
-/* --------------IMG ----------------*/
-
 img {
   max-width: 100%;
   height: auto;
 }
-
-/* --------------Utility Classes ----------------*/
 
 .container {
   width: 80%;
@@ -75,8 +67,6 @@ img {
   top: 16px;
   z-index: 1000;
 }
-
-/* --------------Header ----------------*/
 
 header.primary {
   background: #201e1f;
